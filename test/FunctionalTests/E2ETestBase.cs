@@ -24,7 +24,7 @@ namespace EntropyTests
 
         public int BasePort { get; }
 
-#if NETCOREAPP1_1
+#if NETCOREAPP2_0
         [Fact]
         public Task KestrelX64CoreCLR()
         {
